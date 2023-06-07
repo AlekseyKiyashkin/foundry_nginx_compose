@@ -1,0 +1,8 @@
+{"level":"info","message":"Running on Node.js - Version 20.2.0","timestamp":"2023-06-07 12:06:54"}
+{"level":"info","message":"Foundry Virtual Tabletop - Version 11 Build 299","timestamp":"2023-06-07 12:06:54"}
+{"level":"info","message":"User Data Directory - \"/home/foundryvtt/foundryuserdata\"","timestamp":"2023-06-07 12:06:54"}
+{"level":"info","message":"Saved application configuration options to /home/foundryvtt/foundryuserdata/Config/options.json","timestamp":"2023-06-07 12:06:54"}
+{"level":"info","message":"Application Options:\n{\n  \"compressStatic\": true,\n  \"fullscreen\": false,\n  \"hostname\": null,\n  \"language\": \"en.core\",\n  \"localHostname\": null,\n  \"port\": 30000,\n  \"protocol\": null,\n  \"proxyPort\": null,\n  \"proxySSL\": false,\n  \"routePrefix\": null,\n  \"updateChannel\": \"stable\",\n  \"upnp\": true,\n  \"upnpLeaseDuration\": null,\n  \"awsConfig\": null,\n  \"compressSocket\": true,\n  \"cssTheme\": \"foundry\",\n  \"deleteNEDB\": false,\n  \"hotReload\": false,\n  \"passwordSalt\": null,\n  \"sslCert\": null,\n  \"sslKey\": null,\n  \"world\": null,\n  \"serviceConfig\": null,\n  \"adminPassword\": null\n}","timestamp":"2023-06-07 12:06:54"}
+{"level":"warn","message":"Software license requires signature.","timestamp":"2023-06-07 12:06:54"}
+{"level":"info","message":"Requesting UPnP port forwarding to destination port 30000","timestamp":"2023-06-07 12:06:54"}
+{"level":"info","message":"Server started and listening on port 30000","timestamp":"2023-06-07 12:06:54"}
