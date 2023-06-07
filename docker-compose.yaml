@@ -1,0 +1,14 @@
+---
+version: '3.7'
+services:
+  backend:
+    build: ./foundry-backend
+    ports: 
+      - 30000:30000
+    volumes: 
+      - ./home/kroot/foundryuserdata/foundryuserdata:/home/foundryvtt/foundryuserdata
+
+  proxy: 
+    build: ./proxy
+    ports: 
+     - 81:80
