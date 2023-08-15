@@ -6,7 +6,7 @@ RUN apt install unzip
 RUN unzip Foundry*.zip -d foundry && rm Foundry*.zip
 WORKDIR /home/foundryvtt/foundry
 
-VOLUME /home/foundryvtt/foundryuserdata
+#VOLUME /home/foundryvtt/foundryuserdata
 
 EXPOSE 30000
 CMD [ "node", "resources/app/main.js", "--headless", "--dataPath=/home/foundryvtt/foundryuserdata" ]
