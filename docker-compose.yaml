@@ -4,12 +4,12 @@ version: '3.7'
 services:
   backend:
     build: ./foundry-backend
-#    ports: 
-#      - 30000:30000
-    volumes: 
-      - <PATH TO YOUR FOUNDRY DATA>:/home/foundryvtt/foundryuserdata
+    ports:
+      - 30000:30000
+    volumes:
+      - /home/kroot/foundryuserdata:/home/foundryvtt/foundryuserdata
 
-  proxy: 
-    build: ./proxy
-    ports: 
-     - 80:80
+  proxy:
+    image: kryssperer/foundry_nginx
+    ports:
+     - 30080:80

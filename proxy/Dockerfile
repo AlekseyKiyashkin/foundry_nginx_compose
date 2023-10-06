@@ -1,5 +1,6 @@
-FROM nginx:latest
+FROM nginx:1.24-bullseye
 
-COPY ./default.conf /etc/nginx/conf.d/default.conf
+COPY ./foundryvtt.kiiashkin.net /etc/nginx/sites-available/
+RUN ln -s /etc/nginx/sites-available/foundryvtt.kiiashkin.net /etc/nginx/sites-enabled/
 
 CMD ["nginx", "-g", "daemon off;"]
